@@ -10,6 +10,7 @@ PHYB57 中文学习资料库。资料分为 **Tutorial**、**上课讲义（Lect
 | Tutorial 4：算法复杂度与 Big-O 逐行人话版 | [阅读](./tutorials/algorithm-complexity-big-o/index.html) | [Notebook](./tutorials/algorithm-complexity-big-o/PHYB57_Tutorial4_算法复杂度Big-O_逐行人话版.ipynb) |
 | Tutorial 5：文本文件与 Matplotlib 绘图（原版） | [阅读](./tutorials/tutorial-5-file-io-plotting/index.html) | [HTML](./tutorials/tutorial-5-file-io-plotting/tut-5.html) |
 | Tutorial 6：最小二乘回归（原版 + 中文详细讲解） | [阅读](./tutorials/tutorial-6-least-squares/index.html) | [HTML](./tutorials/tutorial-6-least-squares/tut-6.html) · [讲解 PDF](./tutorials/tutorial-6-least-squares/Tutorial6%E6%9C%80%E5%B0%8F%E4%BA%8C%E4%B9%98%E5%9B%9E%E5%BD%92%E4%B8%AD%E6%96%87%E8%AF%A6%E7%BB%86%E8%AE%B2%E8%A7%A3_2026-11-02.pdf) |
+| Tutorial 7：插值、求根、数值微分与数值积分（原版） | [阅读](./tutorials/tutorial-7-numerical-methods/index.html) | [HTML](./tutorials/tutorial-7-numerical-methods/tut-7.html) |
 
 ## 上课讲义（Lectures）
 
@@ -54,7 +55,8 @@ PHYB57-Study-Library/
 │   ├── tutorials-1-3/
 │   ├── algorithm-complexity-big-o/
 │   ├── tutorial-5-file-io-plotting/
-│   └── tutorial-6-least-squares/
+│   ├── tutorial-6-least-squares/
+│   └── tutorial-7-numerical-methods/
 ├── lectures/                   # 普通上课讲义，按章节存放
 │   ├── chapter-1-python-calculator-logic/
 │   ├── chapter-2-variables-data-structures/
