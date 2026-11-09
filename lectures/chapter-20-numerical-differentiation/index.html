@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="前向、后向、中心差分与误差阶，含高阶导数与噪声处理。">
+  <title>PHYB57 C20｜数值微分</title>
+  <style>
+    :root{color-scheme:dark;--bg:#0a121d;--surface:#12202e;--surface2:#182b3b;--line:#2e4555;--text:#eef6fa;--muted:#b4c5ce;--cyan:#67d6e8;--coral:#ff9a7e;--focus:#ffe69a}
+    *{box-sizing:border-box}
+    html{font-family:Inter,"Noto Sans SC","Microsoft YaHei",system-ui,sans-serif}
+    body{margin:0;min-width:320px;background:radial-gradient(850px 490px at 82% -10%,#1b3b51,transparent 70%),var(--bg);color:var(--text);line-height:1.55}
+    a{color:inherit;text-decoration:none}
+    a:focus-visible{outline:3px solid var(--focus);outline-offset:4px}
+    .wrap{width:min(1100px,calc(100% - 40px));margin:auto}
+    header{padding:42px 0 68px;border-bottom:1px solid var(--line)}
+    .brand{display:flex;align-items:center;gap:12px;color:var(--cyan);font-size:12px;font-weight:800;letter-spacing:.18em}
+    .brand-mark{display:inline-grid;place-items:center;width:29px;height:29px;border:2px solid currentColor;border-radius:7px;font-size:18px;line-height:1}
+    .eyebrow{margin:62px 0 10px;color:var(--coral);font-size:12px;font-weight:800;letter-spacing:.2em;text-transform:uppercase}
+    h1{font-size:clamp(43px,7vw,80px);line-height:1;letter-spacing:-.065em;margin:0}
+    .lede{max-width:690px;color:#d3e2e9;font-size:clamp(16px,2vw,20px);margin:22px 0 0}
+    main{padding:46px 0 70px}
+    .section-head{display:flex;align-items:baseline;justify-content:space-between;gap:20px;margin:0 0 23px}
+    h2{font-size:25px;letter-spacing:-.035em;margin:0}
+    .count{font-size:13px;color:var(--muted)}
+    .group-label{font-size:12px;color:var(--cyan);font-weight:800;letter-spacing:.15em;margin:0 0 13px;text-transform:uppercase}
+    .cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+    .card{display:block;background:linear-gradient(145deg,var(--surface2),var(--surface));border:1px solid var(--line);border-radius:17px;padding:23px 25px 24px;min-height:204px;transition:border-color .18s,transform .18s}
+    .card:hover{border-color:var(--cyan);transform:translateY(-3px)}
+    .tag{color:var(--coral);font-size:11px;font-weight:800;letter-spacing:.13em;text-transform:uppercase}
+    .card h3{font-size:25px;letter-spacing:-.04em;margin:13px 0 8px;line-height:1.2}
+    .card p{font-size:14px;color:var(--muted);margin:0;max-width:410px}
+    .open{display:inline-block;margin-top:18px;color:var(--cyan);font-size:13px;font-weight:800}
+    .open::after{content:" →"}
+    .note{margin-top:44px;padding:16px 20px;border-left:3px solid var(--cyan);background:rgba(103,214,232,.08);font-size:13px;color:#c9dbe3}
+    footer{border-top:1px solid var(--line);padding:24px 0 38px;color:#91a9b6;font-size:12px}
+    @media(max-width:680px){.wrap{width:min(100% - 28px,610px)}header{padding:27px 0 49px}.eyebrow{margin-top:45px}.section-head{display:block}.count{display:block;margin-top:4px}.cards{grid-template-columns:1fr}.card{min-height:auto}}
+    @media(prefers-reduced-motion:reduce){.card{transition:none}}
+  .files{display:grid;gap:12px;margin:0 0 28px}.file{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:10px;background:var(--surface);border:1px solid var(--line);border-radius:13px;padding:15px 18px}.file b{font-size:15px}.file small{display:block;color:var(--muted);font-size:12px;margin-top:2px;word-break:break-all}.btns a{display:inline-block;margin-left:8px;color:var(--cyan);font-size:13px;font-weight:800}.viewer{width:100%;height:80vh;border:1px solid var(--line);border-radius:13px;background:#fff}.back{color:var(--cyan);font-size:13px;font-weight:800}</style>
+</head>
+<body>
+  <header><div class="wrap">
+    <div class="brand"><span class="brand-mark" aria-hidden="true">⌁</span><span>PHYB57 STUDY LIBRARY</span></div>
+    <p class="eyebrow">上课讲义（Lectures） · C20 · Differentiation</p>
+    <h1>数值微分</h1>
+    <p class="lede">前向、后向、中心差分与误差阶，含高阶导数与噪声处理。</p>
+  </div></header>
+  <main class="wrap">
+    <p><a class="back" href="../../index.html">← 返回分类目录</a></p>
+    <div class="section-head"><h2>本专题文件</h2><span class="count">2 份</span></div>
+    <div class="files"><div class="file"><div><b>讲义复习版 PDF（2026-11-05）</b><small>PHYB57_C20_数值微分_讲义复习版_2026-11-05.pdf</small></div><span class="btns"><a href="./PHYB57_C20_%E6%95%B0%E5%80%BC%E5%BE%AE%E5%88%86_%E8%AE%B2%E4%B9%89%E5%A4%8D%E4%B9%A0%E7%89%88_2026-11-05.pdf" target="_blank" rel="noopener">在线打开</a><a href="./PHYB57_C20_%E6%95%B0%E5%80%BC%E5%BE%AE%E5%88%86_%E8%AE%B2%E4%B9%89%E5%A4%8D%E4%B9%A0%E7%89%88_2026-11-05.pdf" download>下载</a></span></div><div class="file"><div><b>原版课件 PDF</b><small>PHYB57_C20.pdf</small></div><span class="btns"><a href="./PHYB57_C20.pdf" target="_blank" rel="noopener">在线打开</a><a href="./PHYB57_C20.pdf" download>下载</a></span></div></div>
+    <iframe class="viewer" src="./PHYB57_C20_%E6%95%B0%E5%80%BC%E5%BE%AE%E5%88%86_%E8%AE%B2%E4%B9%89%E5%A4%8D%E4%B9%A0%E7%89%88_2026-11-05.pdf" title="讲义复习版 PDF（2026-11-05）"></iframe>
+    <p class="note">PDF 和 HTML 按原文件保留；如果上方预览没有显示（部分手机浏览器不支持内嵌 PDF），点「在线打开」即可。</p>
+  </main>
+  <footer><div class="wrap">PHYB57 Study Library · 上课讲义（Lectures）</div></footer>
+</body>
+</html>
