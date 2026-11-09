@@ -10,7 +10,7 @@ PHYB57 中文学习资料库。资料分为 **Tutorial**、**上课讲义（Lect
 | Tutorial 4：算法复杂度与 Big-O 逐行人话版 | [阅读](./tutorials/algorithm-complexity-big-o/index.html) | [Notebook](./tutorials/algorithm-complexity-big-o/PHYB57_Tutorial4_算法复杂度Big-O_逐行人话版.ipynb) |
 | Tutorial 5：文本文件与 Matplotlib 绘图（原版） | [阅读](./tutorials/tutorial-5-file-io-plotting/index.html) | [HTML](./tutorials/tutorial-5-file-io-plotting/tut-5.html) |
 | Tutorial 6：最小二乘回归（原版 + 中文详细讲解） | [阅读](./tutorials/tutorial-6-least-squares/index.html) | [HTML](./tutorials/tutorial-6-least-squares/tut-6.html) · [讲解 PDF](./tutorials/tutorial-6-least-squares/Tutorial6%E6%9C%80%E5%B0%8F%E4%BA%8C%E4%B9%98%E5%9B%9E%E5%BD%92%E4%B8%AD%E6%96%87%E8%AF%A6%E7%BB%86%E8%AE%B2%E8%A7%A3_2026-11-02.pdf) |
-| Tutorial 7：插值、求根、数值微分与数值积分（原版） | [阅读](./tutorials/tutorial-7-numerical-methods/index.html) | [HTML](./tutorials/tutorial-7-numerical-methods/tut-7.html) |
+| Tutorial 7：插值、求根、数值微分与数值积分（原版 + 中文深色讲解） | [阅读](./tutorials/tutorial-7-numerical-methods/index.html) | [HTML](./tutorials/tutorial-7-numerical-methods/tut-7.html) · [讲解 PDF](./tutorials/tutorial-7-numerical-methods/Tutorial7_%E6%95%B0%E5%80%BC%E6%96%B9%E6%B3%95%E5%9B%9B%E8%AE%B2_%E6%B7%B1%E8%89%B2%E8%AE%B2%E8%A7%A3%E7%89%88_2026-11-09.pdf) |
 
 ## 上课讲义（Lectures）
 
