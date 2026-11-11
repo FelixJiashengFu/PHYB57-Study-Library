@@ -38,6 +38,7 @@ C1–C5、C8-1、C9、C11、C12、C16（两部分）、C17、C19、C20、C21 的
 | 作业 | 在线阅读 | 原文件 |
 | --- | --- | --- |
 | Problem Set 1：Jiasheng Fu 的 HTML 解答 | [阅读](./assignments/problem-set-1/index.html) | [HTML](./assignments/problem-set-1/PHYB57%20set%201%20Jiasheng%20Fu.html) |
+| Problem Set 3：插值绘图 · 二分法求交点 · 数值微分（深色详细讲解版） | [阅读](./assignments/problem-set-3/index.html) | [PDF](./assignments/problem-set-3/PHYB57_Problem_Set_3_%E6%B7%B1%E8%89%B2%E8%AF%A6%E7%BB%86%E8%AE%B2%E8%A7%A3%E7%89%88_2026-11-09.pdf) |
 
 ## 课程信息（Course Info）
 
@@ -73,7 +74,8 @@ PHYB57-Study-Library/
 │   ├── chapter-20-numerical-differentiation/
 │   └── chapter-21-numerical-integration/
 ├── assignments/                # 作业与习题答案
-│   └── problem-set-1/
+│   ├── problem-set-1/
+│   └── problem-set-3/
 ├── course-info/                # 课程大纲等课程信息
 │   └── syllabus-f24/
 └── topics/algorithm-complexity-big-o/  # 旧公开链接兼容入口
