@@ -1,6 +1,6 @@
 # PHYB57 Study Library
 
-PHYB57 中文学习资料库。资料分为 **Tutorial**、**上课讲义（Lectures）**、**作业（Assignments）** 和 **课程信息（Course Info）** 四大类，再在类内按章节或专题分别存放。打开[分类目录](./index.html)选择内容；网页用于阅读，原文件可单独下载。
+PHYB57 中文学习资料库。资料分为 **Tutorial**、**上课讲义（Lectures）**、**作业（Assignments）**、**复习（Review）** 和 **课程信息（Course Info）** 五大类，再在类内按章节或专题分别存放。打开[分类目录](./index.html)选择内容；网页用于阅读，原文件可单独下载。
 
 ## Tutorial
 
@@ -22,7 +22,7 @@ PHYB57 中文学习资料库。资料分为 **Tutorial**、**上课讲义（Lect
 | C4 | 条件判断逐行人话版 | [阅读](./lectures/chapter-4-conditionals/index.html) | [Notebook](./lectures/chapter-4-conditionals/PHYB57_C4_%E6%9D%A1%E4%BB%B6%E5%88%A4%E6%96%AD_%E9%80%90%E8%A1%8C%E4%BA%BA%E8%AF%9D%E7%89%88.ipynb) |
 | C5 | 循环与推导式逐行人话版 | [阅读](./lectures/chapter-5-loops-comprehensions/index.html) | [Notebook](./lectures/chapter-5-loops-comprehensions/PHYB57_C5_%E5%BE%AA%E7%8E%AF%E4%B8%8E%E6%8E%A8%E5%AF%BC%E5%BC%8F_%E9%80%90%E8%A1%8C%E4%BA%BA%E8%AF%9D%E7%89%88.ipynb) |
 | C8-1 | 复杂度、Big-O 与性能分析 | [阅读](./lectures/chapter-8-1-complexity/index.html) | [Notebook](./lectures/chapter-8-1-complexity/PHYB57_C8-1.ipynb) |
-| C9 | 进制与浮点数表示 | [阅读](./lectures/chapter-9-number-representation/index.html) | [Notebook](./lectures/chapter-9-number-representation/PHYB57_C9.ipynb) |
+| C9 | 进制与浮点数表示 | [阅读](./lectures/chapter-9-number-representation/index.html) | [Notebook](./lectures/chapter-9-number-representation/PHYB57_C9.ipynb) · [中文讲解 PDF](./lectures/chapter-9-number-representation/PHYB57_C9_%E4%B8%AD%E6%96%87.pdf) |
 | C11 | 文件读写逐行人话版 | [阅读](./lectures/chapter-11-file-io/index.html) | [Notebook](./lectures/chapter-11-file-io/PHYB57_C11_文件读写_逐行人话版.ipynb) |
 | C12 | 科学绘图与动画逐行人话版 | [阅读](./lectures/chapter-12-plotting-animation/index.html) | [Notebook](./lectures/chapter-12-plotting-animation/PHYB57_C12_科学绘图与动画_逐行人话版.ipynb) |
 | C16 | 最小二乘回归 · 讲义复习版 | [阅读](./lectures/chapter-16-least-squares-regression/index.html) | [PDF](./lectures/chapter-16-least-squares-regression/PHYB57_C16_%E6%9C%80%E5%B0%8F%E4%BA%8C%E4%B9%98%E5%9B%9E%E5%BD%92_%E8%AE%B2%E4%B9%89%E5%A4%8D%E4%B9%A0%E7%89%88_2026-11-05.pdf) |
@@ -31,14 +31,22 @@ PHYB57 中文学习资料库。资料分为 **Tutorial**、**上课讲义（Lect
 | C20 | 数值微分 · 讲义复习版 | [阅读](./lectures/chapter-20-numerical-differentiation/index.html) | [PDF](./lectures/chapter-20-numerical-differentiation/PHYB57_C20_%E6%95%B0%E5%80%BC%E5%BE%AE%E5%88%86_%E8%AE%B2%E4%B9%89%E5%A4%8D%E4%B9%A0%E7%89%88_2026-11-05.pdf) |
 | C21 | 数值积分 · 复习考试版 | [阅读](./lectures/chapter-21-numerical-integration/index.html) | [PDF](./lectures/chapter-21-numerical-integration/PHYB57_C21_%E6%95%B0%E5%80%BC%E7%A7%AF%E5%88%86_%E5%A4%8D%E4%B9%A0%E8%80%83%E8%AF%95%E7%89%88.pdf) |
 
-C1–C5、C8-1、C9、C11、C12、C16（两部分）、C17、C19、C20、C21 的**原版课件 PDF**（`PHYB57_Cxx.pdf`）都放在对应章节目录里。C12 目录另有一份《Python 可视化与绘图》深色讲解版 PDF。
+C1–C5、C8-1、C9、C11、C12、C16（两部分）、C17、C19、C20、C21 的**原版课件 PDF**（`PHYB57_Cxx.pdf`）都放在对应章节目录里。C12 目录另有一份《Python 可视化与绘图》深色讲解版 PDF；C9 目录另有一份 8 页中文讲解 PDF。
 
 ## 作业（Assignments）
 
 | 作业 | 在线阅读 | 原文件 |
 | --- | --- | --- |
 | Problem Set 1：Jiasheng Fu 的 HTML 解答 | [阅读](./assignments/problem-set-1/index.html) | [HTML](./assignments/problem-set-1/PHYB57%20set%201%20Jiasheng%20Fu.html) |
+| Problem Set 2：递归与复杂度 · 双精度浮点数 · 最小二乘回归（中文完整解答） | [阅读](./assignments/problem-set-2/index.html) | [PDF](./assignments/problem-set-2/PHYB57_problem_set_2_%E4%B8%AD%E6%96%87%E5%AE%8C%E6%95%B4%E8%A7%A3%E7%AD%94.pdf) |
 | Problem Set 3：插值绘图 · 二分法求交点 · 数值微分（深色详细讲解版） | [阅读](./assignments/problem-set-3/index.html) | [PDF](./assignments/problem-set-3/PHYB57_Problem_Set_3_%E6%B7%B1%E8%89%B2%E8%AF%A6%E7%BB%86%E8%AE%B2%E8%A7%A3%E7%89%88_2026-11-09.pdf) |
+
+## 复习（Review）
+
+| 资料 | 在线阅读 | 原文件 |
+| --- | --- | --- |
+| 第 9–17 章双语总复习讲义（C9、C11、C12、C16、C17 + Tutorial 3–5，105 页） | [阅读](./review/chapters-9-17-bilingual-review/index.html) | [PDF](./review/chapters-9-17-bilingual-review/PHYB57_%E7%AC%AC9-17%E7%AB%A0_%E5%8F%8C%E8%AF%AD%E6%80%BB%E5%A4%8D%E4%B9%A0%E8%AE%B2%E4%B9%89_2026-10-30.pdf) |
+| Python 速查表（中文人话版，1 页） | [阅读](./review/python-cheat-sheet/index.html) | [PDF](./review/python-cheat-sheet/PHYB57_Cheat_Sheet.pdf) |
 
 ## 课程信息（Course Info）
 
@@ -50,7 +58,7 @@ C1–C5、C8-1、C9、C11、C12、C16（两部分）、C17、C19、C20、C21 的
 
 ```text
 PHYB57-Study-Library/
-├── index.html                  # 四大类入口
+├── index.html                  # 五大类入口
 ├── README.md                   # 分类索引与维护规则
 ├── tutorials/                  # Tutorial、习题课与练习资料
 │   ├── tutorials-1-3/
@@ -75,13 +83,17 @@ PHYB57-Study-Library/
 │   └── chapter-21-numerical-integration/
 ├── assignments/                # 作业与习题答案
 │   ├── problem-set-1/
+│   ├── problem-set-2/
 │   └── problem-set-3/
+├── review/                     # 跨章节总复习与速查表
+│   ├── chapters-9-17-bilingual-review/
+│   └── python-cheat-sheet/
 ├── course-info/                # 课程大纲等课程信息
 │   └── syllabus-f24/
 └── topics/algorithm-complexity-big-o/  # 旧公开链接兼容入口
 ```
 
-1. Tutorial 与习题课资料放入 `tutorials/`；普通课堂讲义放入 `lectures/`；已完成的作业及答案放入 `assignments/`；课程大纲等放入 `course-info/`。
+1. Tutorial 与习题课资料放入 `tutorials/`；普通课堂讲义放入 `lectures/`；已完成的作业及答案放入 `assignments/`；跨章节复习讲义与速查表放入 `review/`；课程大纲等放入 `course-info/`。
 2. 每份资料使用独立的全小写英文短目录名；原 Notebook 文件名保持不变。
 3. 每个目录包含 `index.html` 阅读版、用户提供的原文件和 `README.md` 使用说明；同一章的原版课件 PDF 和讲解版放在同一个目录。目录首页和上方索引同时更新。
 4. 旧 `topics/algorithm-complexity-big-o/` 仅为此前分享过的链接保留跳转和原 Notebook；它不是单独的一类资料。
