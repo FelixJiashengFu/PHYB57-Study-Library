@@ -47,6 +47,8 @@ C1–C5、C8-1、C9、C11、C12、C16（两部分）、C17、C19、C20、C21 的
 | --- | --- | --- |
 | 第 9–17 章双语总复习讲义（C9、C11、C12、C16、C17 + Tutorial 3–5，105 页） | [阅读](./review/chapters-9-17-bilingual-review/index.html) | [PDF](./review/chapters-9-17-bilingual-review/PHYB57_%E7%AC%AC9-17%E7%AB%A0_%E5%8F%8C%E8%AF%AD%E6%80%BB%E5%A4%8D%E4%B9%A0%E8%AE%B2%E4%B9%89_2026-10-30.pdf) |
 | Python 速查表（中文人话版，1 页） | [阅读](./review/python-cheat-sheet/index.html) | [PDF](./review/python-cheat-sheet/PHYB57_Cheat_Sheet.pdf) |
+| Term Test 2 Crib Sheet（C1–C21 一页纸英文，2026-11-11） | [阅读](./review/term-test-2-crib-sheet/index.html) | [PDF](./review/term-test-2-crib-sheet/PHYB57_TermTest2_CribSheet_2026-11-11.pdf) |
+| 全部资料合订本（Syllabus + C1–C21 + Tutorial 1–7 + Crib Sheet + 模拟卷，253 页） | [阅读](./review/complete-binder/index.html) | [PDF](./review/complete-binder/PHYB57_%E5%85%A8%E9%83%A8%E8%B5%84%E6%96%99%E5%90%88%E8%AE%A2%E6%9C%AC_2026-11-13.pdf) |
 
 ## 课程信息（Course Info）
 
@@ -87,13 +89,15 @@ PHYB57-Study-Library/
 │   └── problem-set-3/
 ├── review/                     # 跨章节总复习与速查表
 │   ├── chapters-9-17-bilingual-review/
-│   └── python-cheat-sheet/
+│   ├── python-cheat-sheet/
+│   ├── term-test-2-crib-sheet/
+│   └── complete-binder/
 ├── course-info/                # 课程大纲等课程信息
 │   └── syllabus-f24/
 └── topics/algorithm-complexity-big-o/  # 旧公开链接兼容入口
 ```
 
-1. Tutorial 与习题课资料放入 `tutorials/`；普通课堂讲义放入 `lectures/`；已完成的作业及答案放入 `assignments/`；跨章节复习讲义与速查表放入 `review/`；课程大纲等放入 `course-info/`。
+1. Tutorial 与习题课资料放入 `tutorials/`；普通课堂讲义放入 `lectures/`；已完成的作业及答案放入 `assignments/`；跨章节复习讲义、速查表与合订本放入 `review/`；课程大纲等放入 `course-info/`。
 2. 每份资料使用独立的全小写英文短目录名；原 Notebook 文件名保持不变。
 3. 每个目录包含 `index.html` 阅读版、用户提供的原文件和 `README.md` 使用说明；同一章的原版课件 PDF 和讲解版放在同一个目录。目录首页和上方索引同时更新。
 4. 旧 `topics/algorithm-complexity-big-o/` 仅为此前分享过的链接保留跳转和原 Notebook；它不是单独的一类资料。
